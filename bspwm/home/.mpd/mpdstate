@@ -1,0 +1,26 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 0
+time: 97.702000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:NEFFEX - Grateful [Copyright Free].mp3
+1:Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3
+2:Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3
+3:Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3
+4:N3WPORT - Power (feat. braev) [NCS Release].mp3
+5:Night_The Beauty and the Beast.mp3
+6:nightwish_-_sleeping_sun-alc.mp3
+7:nightwish_-_bless_the_child-alc.mp3
+8:Nightwish_Nemo.mp3
+9:Evanescence_Bring Me To Life.mp3
+10:Evanescence_My Immortal.mp3
+playlist_end
