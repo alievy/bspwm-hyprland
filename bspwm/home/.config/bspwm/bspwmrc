@@ -53,7 +53,7 @@ bspc rule -a "VirtualBox Manager" desktop='^8' state=floating follow=on
 bspc rule -a qBittorrent desktop='^8' follow=on focus=on
 bspc rule -a discord desktop='^9' follow=on focus=on
 bspc rule -a TelegramDesktop desktop='^9' follow=on focus=on
-bspc rule -a nomacs state=floating follow=on focus=on
+bspc rule -a "Image Lounge" state=floating follow=on focus=on
 bspc rule -a Viewnior state=floating follow=on focus=on
 bspc rule -a Pavucontrol state=floating follow=on focus=on
 bspc rule -a Lxappearance state=floating follow=on focus=on
