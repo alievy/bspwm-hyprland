@@ -17,8 +17,8 @@ read answer
         sudo pacman -S --noconfirm --needed vim 
         sudo pacman -S --noconfirm --needed neovim		
         rm -rf ~/.config/nvim
-		rm -rf ~/.local/share/nvim
-		rm -rf ~/.cache/nvim
+	rm -rf ~/.local/share/nvim
+	rm -rf ~/.cache/nvim
         sleep 3
         mkdir -p ~/.config/nvim
         git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
