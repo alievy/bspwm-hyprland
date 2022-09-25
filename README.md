@@ -27,9 +27,10 @@ Installation
 
     If you want to install this setup on ARCH Linux or on any other distro, follow the points below:
     
-    1. Install the following programs on your computer: hyprland, swaybg, swayidle, swaylock, wlroots, 
-    wl-clipboard, waybar-hyprland-git, wofi, kitty (and/or foot), mako, grim, slurp, wf-recorder, light, 
-    yad, thunar, geany, mpv, mpd, mpc, ncmpcpp, viewnior (or nomacs), imagemagick, xfce-polkit (or polkit-gnome), xorg-xwayland.
+    1. Install the following programs on your computer: hyprland, swaybg, swayidle, swaylock, 
+    wlroots, wl-clipboard, waybar-hyprland-git, wofi, kitty (and/or foot), mako, grim, slurp, 
+    wf-recorder, light, yad, thunar, geany, mpv, mpd, mpc, ncmpcpp, viewnior (or nomacs), 
+    imagemagick, xfce-polkit (or polkit-gnome), xorg-xwayland.
     
     2. After installing programs above, 
     
@@ -38,3 +39,5 @@ Installation
     4. Copy Everything from /hyprland/* to ~/.config/hypr : cp -r /hyprland/* ~/.config/hypr/
     
     5. Reboot and login to your previously configured Hyprland WM.
+    
+    
