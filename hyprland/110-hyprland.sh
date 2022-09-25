@@ -19,7 +19,7 @@ read answer
         yay wlrobs-hg  # To Obs-studio works
         sleep 3
         mkdir -p ~/.config/hypr
-        cp -r home/.config/hypr-catppuccin/* /home/eldermf/.config/hypr/
+        cp -r home/.config/hypr-catppuccin/* ~/.config/hypr/
     else
         sair
     fi
