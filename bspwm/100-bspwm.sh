@@ -1,11 +1,11 @@
 #!/bin/bash
 
 ###################################################
-#												  #
+#						  #
 # ==> Autor: Elder M. Fouraux                     #
 #                                                 #
 # ==> Descrição: video and files basic apps       #
-#				(AGO/2022)						  #
+#				(AGO/2022)	  #
 ###################################################
 
 {
@@ -21,12 +21,13 @@ read answer
         sudo pacman -S --noconfirm --needed dunst
         sudo pacman -S --noconfirm --needed lxappearance
         sudo pacman -S --noconfirm --needed dmenu
-		sudo pacman -S --noconfirm --needed ksuperkey
-		sudo pacman -S --noconfirm --needed nitrogen
-		sleep 3
+	sudo pacman -S --noconfirm --needed ksuperkey
+	sudo pacman -S --noconfirm --needed nitrogen
+	sudo pacman -S sddm
+	sleep 3
 		
-		echo -e "\nDon't forget to install cava...\n"
-		sleep 2
+	echo -e "\nDon't forget to install cava...\n"
+	sleep 2
       
     else
         sair
