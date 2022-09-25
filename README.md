@@ -12,16 +12,16 @@ Overview
 
 Hyprland is a dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
 
-    Operating System : Arch 
-    Window Manager : Hyprland
-    Status Bar : Waybar-hyprland-git
-    Launcher : Wofi
-    Session Manager : Wlogout
-    Notifications : Mako
-    Terminal : Kitty (or Foot, make your choice)
-    File Manager : Thunar
-    Text Editor : Geany
-    Web Browser : Firefox
+    Operating System:  Arch 
+    Window Manager:    Hyprland
+    Status Bar:        Waybar-hyprland-git
+    Launcher:          Wofi
+    Session Manager:   Wlogout
+    Notifications:     Mako
+    Terminal:          Kitty (or Foot, make your choice)
+    File Manager:      Thunar
+    Text Editor:       Geany
+    Web Browser:       Firefox
 
 Installation
 
