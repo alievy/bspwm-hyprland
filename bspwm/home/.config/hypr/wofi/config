@@ -10,8 +10,8 @@ layer=top
 term=foot
 
 ## Geometry
-width=500px
-height=305px
+width=440px
+height=500px
 location=0
 orientation=vertical
 halign=fill
@@ -21,7 +21,7 @@ dynamic_lines=false
 ## Images
 allow_markup=true
 allow_images=true
-image_size=24
+image_size=26
 
 ## Search
 exec_search=false
