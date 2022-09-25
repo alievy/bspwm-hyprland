@@ -14,7 +14,7 @@ read answer
     if [[ $answer = [sSyY] ]]; then
         echo -e "\nInstalling...\n"
 
-        yay -S swaybg swayidle swaylock wlroots wl-clipboard waybar wofi foot mako grim slurp wlogout light yad obs-studio imagemagick nwg-look xorg-xwayland		
+        yay -S swaybg swayidle swaylock wlroots wl-clipboard waybar-hyprland-git wofi foot mako grim slurp wlogout light yad obs-studio imagemagick nwg-look xorg-xwayland		
         yay hyprland
         yay wlrobs-hg  # To Obs-studio works
         sleep 3
