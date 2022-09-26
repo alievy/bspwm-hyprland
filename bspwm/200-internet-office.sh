@@ -1,11 +1,11 @@
 #!/bin/bash
 
 ###################################################
-#												  #
+#						  #
 # ==> Autor: Elder M. Fouraux                     #
 #                                                 #
 # ==> Descrição: video and files basic apps       #
-#				(AGO/2022)						  #
+#				(AGO/2022)	  #
 ###################################################
 
 {
@@ -21,10 +21,11 @@ read answer
         sudo pacman -S  libreoffice-fresh-pt-br
         sudo pacman -S  java-runtime
         sudo pacman -S  java-environment
-		sudo pacman -S  firefox-i18n-pt-br
-		sudo pacman -S  discord 
-		sudo pacman -S 	telegram-desktop
-		sudo pacman -S  qbittorrent
+	sudo pacman -S  firefox-i18n-pt-br
+	sudo pacman -S  discord 
+	sudo pacman -S 	telegram-desktop
+	sudo pacman -S  qbittorrent
+	sudo pacman -S  galculator
         
     else
         sair
