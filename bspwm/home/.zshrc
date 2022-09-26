@@ -1,15 +1,3 @@
-
-
-##################################################################################################################
-################################      LINUXLIVRE       ###########################################################
-##################################################################################################################
-############# youtube: https://www.youtube.com/channel/UC7mTcm79pzUu4a46X1ththw ##################################
-############# github.com/tiaoedi                                                ##################################
-############# GRUPO DISCORD: https://discord.gg/2CCAE9hBTT                      ##################################
-############# SUPORTE PIX: tiaoedi@gmail.com                                    ##################################
-##################################################################################################################
-
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -136,19 +124,19 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-
-
-
-
 ### ALIASES ###
 
 #list
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
+#alias la='ls -a'
+#alias ll='ls -alFh'
+#alias l='ls'
+#alias l.="ls -A | egrep '^\.'"
+alias ls='exa --icons'
+alias l='ls -l'
 alias la='ls -a'
-alias ll='ls -alFh'
-alias l='ls'
-alias l.="ls -A | egrep '^\.'"
+alias lla='ls -la'
+alias lt='ls --tree'
 
 #fix obvious typo's
 alias cd..='cd ..'
