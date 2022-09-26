@@ -1,11 +1,11 @@
 #!/bin/bash
 
 ###################################################
-#												  #
+#						  #
 # ==> Autor: Elder M. Fouraux                     #
 #                                                 #
 # ==> Descrição: video and files basic apps       #
-#				(AGO/2022)						  #
+#				(AGO/2022)	  #
 ###################################################
 
 {
@@ -26,15 +26,16 @@ read answer
         sudo pacman -S --noconfirm --needed xorg-xset
         sudo pacman -S --noconfirm --needed xorg-xsetroot
         sudo pacman -S --noconfirm --needed xorg-fonts-misc
-		sudo pacman -S --noconfirm --needed xclip
-		sudo pacman -S --noconfirm --needed xcb-util
-		sudo pacman -S --noconfirm --needed xcb-util-wm		
-		sudo pacman -S --noconfirm --needed xcb-util-keysyms
-		sudo pacman -S --noconfirm --needed xcb-util-cursor
-		sudo pacman -S --noconfirm --needed libxcb
-		sudo pacman -S --noconfirm --needed dosfstools
-		sudo pacman -S --noconfirm --needed os-prober
-		sudo pacman -S --noconfirm --needed mtools
+	sudo pacman -S --noconfirm --needed xclip
+	sudo pacman -S --noconfirm --needed xcb-util
+	sudo pacman -S --noconfirm --needed xcb-util-wm		
+	sudo pacman -S --noconfirm --needed xcb-util-keysyms
+	sudo pacman -S --noconfirm --needed xcb-util-cursor
+	sudo pacman -S --noconfirm --needed libxcb
+	sudo pacman -S --noconfirm --needed dosfstools
+	sudo pacman -S --noconfirm --needed os-prober
+	sudo pacman -S --noconfirm --needed mtools
+	sudo pacman -S --noconfirm --needed exa
         sudo pacman -S --noconfirm --needed gvfs
         sudo pacman -S --noconfirm --needed gvfs-mtp
         sudo pacman -S --noconfirm --needed gvfs-afc
@@ -42,30 +43,30 @@ read answer
         sudo pacman -S --noconfirm --needed gvfs-nfs
         sudo pacman -S --noconfirm --needed gvfs-smb
         sudo pacman -S --noconfirm --needed dialog
-		sudo pacman -S --noconfirm --needed zenity
-		sudo pacman -S --noconfirm --needed bash-completion
-		sudo pacman -S --noconfirm --needed udftools
-		sudo pacman -S --noconfirm --needed exfat-utils
-		sudo pacman -S --noconfirm --needed uudeview
-		sudo pacman -S --noconfirm --needed ntfs-3g
-		sudo pacman -S --noconfirm --needed libmtp
-		sudo pacman -S --noconfirm --needed jq
-		sudo pacman -S --noconfirm --needed binutils
-		sudo pacman -S --noconfirm --needed usbutils
-		sudo pacman -S --noconfirm --needed udiskie
-		sudo pacman -S --noconfirm --needed udisks2
-		sudo pacman -S --noconfirm --needed unace 
-		sudo pacman -S --noconfirm --needed p7zip
-		sudo pacman -S --noconfirm --needed unrar
-		sudo pacman -S --noconfirm --needed zip
-		sudo pacman -S --noconfirm --needed unzip
-		sudo pacman -S --noconfirm --needed file-roller
-		sudo pacman -S --noconfirm --needed mlocate
-		#sudo pacman -S --noconfirm --needed sshfs
-		sudo pacman -S --noconfirm --needed gpart
-		sudo pacman -S --noconfirm --needed sharutils
-		sudo pacman -S --noconfirm --needed uudeview
-		sudo pacman -S --noconfirm --needed pacman-contrib
+	sudo pacman -S --noconfirm --needed zenity
+	sudo pacman -S --noconfirm --needed bash-completion
+	sudo pacman -S --noconfirm --needed udftools
+	sudo pacman -S --noconfirm --needed exfat-utils
+	sudo pacman -S --noconfirm --needed uudeview
+	sudo pacman -S --noconfirm --needed ntfs-3g
+	sudo pacman -S --noconfirm --needed libmtp
+	sudo pacman -S --noconfirm --needed jq
+	sudo pacman -S --noconfirm --needed binutils
+	sudo pacman -S --noconfirm --needed usbutils
+	sudo pacman -S --noconfirm --needed udiskie
+	sudo pacman -S --noconfirm --needed udisks2
+	sudo pacman -S --noconfirm --needed unace 
+	sudo pacman -S --noconfirm --needed p7zip
+	sudo pacman -S --noconfirm --needed unrar
+	sudo pacman -S --noconfirm --needed zip
+	sudo pacman -S --noconfirm --needed unzip
+	sudo pacman -S --noconfirm --needed file-roller
+	sudo pacman -S --noconfirm --needed mlocate
+	#sudo pacman -S --noconfirm --needed sshfs
+	sudo pacman -S --noconfirm --needed gpart
+	sudo pacman -S --noconfirm --needed sharutils
+	sudo pacman -S --noconfirm --needed uudeview
+	sudo pacman -S --noconfirm --needed pacman-contrib
         sudo pacman -S --noconfirm --needed alsa-firmware
         sudo pacman -S --noconfirm --needed alsa-lib
         sudo pacman -S --noconfirm --needed alsa-plugins
@@ -80,7 +81,7 @@ read answer
         sudo pacman -S --noconfirm --needed ncmpcpp
         sudo pacman -S --noconfirm --needed xfce4-appfinder
         sudo pacman -S --noconfirm --needed numlockx
-		#sudo pacman -S --noconfirm --needed polkit-gnome
+	#sudo pacman -S --noconfirm --needed polkit-gnome
 		
         sudo pacman -S --noconfirm --needed paprefs
         #sudo pacman -S --noconfirm --needed volumeicon
@@ -92,40 +93,40 @@ read answer
         sudo pacman -S --noconfirm --needed w3m
         sudo pacman -S --noconfirm --needed ueberzug
         sudo pacman -S --noconfirm --needed ranger
-		sudo pacman -S --noconfirm --needed atool
-		sudo pacman -S --noconfirm --needed highlight
-		sudo pacman -S --noconfirm --needed poppler
-		sudo pacman -S --noconfirm --needed tumbler
-		sudo pacman -S --noconfirm --needed ffmpegthumbnailer
-		sudo pacman -S --noconfirm --needed ffmpegthumbs
-		sudo pacman -S --noconfirm --needed neofetch
+	sudo pacman -S --noconfirm --needed atool
+	sudo pacman -S --noconfirm --needed highlight
+	sudo pacman -S --noconfirm --needed poppler
+	sudo pacman -S --noconfirm --needed tumbler
+	sudo pacman -S --noconfirm --needed ffmpegthumbnailer
+	sudo pacman -S --noconfirm --needed ffmpegthumbs
+	sudo pacman -S --noconfirm --needed neofetch
         
         ###  If you want to install Thunar:  ####
-                sudo pacman -S --noconfirm --needed thunar
-		sudo pacman -S --noconfirm --needed thunar-archive-plugin
-		sudo pacman -S --noconfirm --needed thunar-media-tags-plugin
-		sudo pacman -S --noconfirm --needed thunar-shares-plugin
-		sudo pacman -S --noconfirm --needed thunar-volman
+        sudo pacman -S --noconfirm --needed thunar
+	sudo pacman -S --noconfirm --needed thunar-archive-plugin
+	sudo pacman -S --noconfirm --needed thunar-media-tags-plugin
+	sudo pacman -S --noconfirm --needed thunar-shares-plugin
+	sudo pacman -S --noconfirm --needed thunar-volman
+	
+	###  If you want prefer Nemo::  ####
+	#sudo pacman -S --noconfirm --needed nemo
+	#sudo pacman -S --noconfirm --needed nemo-audio-tab
+	#sudo pacman -S --noconfirm --needed nemo-fileroller
+	#sudo pacman -S --noconfirm --needed nemo-image-converter
+	#sudo pacman -S --noconfirm --needed nemo-preview
+	#sudo pacman -S --noconfirm --needed nemo-share
+	#sudo pacman -S --noconfirm --needed cinnamon-translations
+	sleep 3
+	#gsettings set org.cinnamon.desktop.default-applications.terminal exec terminator
+	
+	sleep 3
+	
+	sudo pacman -S xfce-polkit
+	sudo pacman -S zsh
+	sudo pacman -S zsh-syntax-highlighting 
+	sudo pacman -S zsh-autosuggestions
 		
-		###  If you want prefer Nemo::  ####
-		#sudo pacman -S --noconfirm --needed nemo
-		#sudo pacman -S --noconfirm --needed nemo-audio-tab
-		#sudo pacman -S --noconfirm --needed nemo-fileroller
-		#sudo pacman -S --noconfirm --needed nemo-image-converter
-		#sudo pacman -S --noconfirm --needed nemo-preview
-		#sudo pacman -S --noconfirm --needed nemo-share
-		#sudo pacman -S --noconfirm --needed cinnamon-translations
-		sleep 3
-		#gsettings set org.cinnamon.desktop.default-applications.terminal exec terminator
-		
-		sleep 3
-		
-		sudo pacman -S xfce-polkit
-		sudo pacman -S zsh
-		sudo pacman -S zsh-syntax-highlighting 
-		sudo pacman -S zsh-autosuggestions
-		
-		sleep 2
+	sleep 2
         
         cd /home/$USER
         sudo pacman -S --noconfirm --needed xdg-user-dirs-gtk
