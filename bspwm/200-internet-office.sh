@@ -17,6 +17,7 @@ read answer
         sudo pacman -S  meld
         sudo pacman -S  geany
         sudo pacman -S  geany-plugins
+	sudo pacman -S  visual-studio-code-bin
         sudo pacman -S  pdfarranger
         sudo pacman -S  libreoffice-fresh-pt-br
         sudo pacman -S  java-runtime
